@@ -1,0 +1,88 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #264653;
+}
+
+.resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resources ul li {
+    margin: 10px 0;
+}
+
+.resources ul li a {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+.resources ul li a:hover {
+    text-decoration: underline;
+}
+
+.infographics {
+    display: flex;
+    gap: 20px;
+}
+
+.infographic {
+    text-align: center;
+}
+
+.infographic img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

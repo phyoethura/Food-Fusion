@@ -1,0 +1,44 @@
+
+
+h1 {
+    color: #333;
+}
+
+.section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Instructional Videos (Row by Row) */
+.video-row {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.video-row iframe {
+    width: 100%;
+    border-radius: 8px;
+}
