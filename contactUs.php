@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($stmt->execute()) {
             $successMessage = true;
             // Clear form data after successful submission
-            $name = $email = $contactMessage = "";
+            $contactMessage = "";
         } else {
             $errorMessage = "Error: " . $stmt->error;
         }
@@ -168,7 +168,7 @@ $conn->close();
     </div>
 
     <!-- Success Popup -->
-    <div class="success-popup" id="success-popup">
+    <div class="success-popup" id="success-popup" style="display: none;">
         <div class="success-popup-content">
             <h3><i class="fas fa-check-circle"></i> Thank You!</h3>
             <p>Your message has been sent successfully. We'll get back to you soon!</p>
@@ -247,26 +247,14 @@ $conn->close();
     <!-- Include JavaScript files -->
     <script src="js/script.js"></script>
     <script src="js/contactUs.js"></script>
-    
-    <?php if ($successMessage): ?>
     <script>
-        // Show success popup when the form is successfully submitted
-        document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('success-popup').style.display = 'block';
-            
-            // Close popup when the close button is clicked
-            document.getElementById('close-success-popup').addEventListener('click', function() {
-                document.getElementById('success-popup').style.display = 'none';
-            });
-            
-            // Close popup when clicking outside the content
-            document.getElementById('success-popup').addEventListener('click', function(event) {
-                if (event.target === this) {
-                    this.style.display = 'none';
-                }
-            });
-        });
+    // Pass PHP session login status to JavaScript
+    const isUserLoggedIn = <?php echo $loggedIn ? 'true' : 'false'; ?>;
+    
+    // This will help display the success popup when needed
+    const successFlag = <?php echo $successMessage ? 'true' : 'false'; ?>;
     </script>
-    <?php endif; ?>
+    
+
 </body>
 </html>

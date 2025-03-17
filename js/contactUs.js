@@ -46,4 +46,38 @@ document.addEventListener('DOMContentLoaded', function() {
             loginPopup.style.display = 'none';
         });
     }
+    
+    // Success popup handling - improved version
+    const successPopup = document.getElementById('success-popup');
+    const closeSuccessBtn = document.getElementById('close-success-popup');
+    
+    // Check if the success flag is set from PHP
+    if (typeof successFlag !== 'undefined' && successFlag === true) {
+        if (successPopup) {
+            // Set timeout to ensure DOM is fully loaded
+            setTimeout(() => {
+                successPopup.style.display = 'flex'; // Using flex instead of block for better centering
+                
+                // Make sure it appears above cookie popup
+                const cookiePopup = document.getElementById('cookie-popup');
+                if (cookiePopup) {
+                    cookiePopup.style.zIndex = '1000';
+                }
+            }, 100);
+        }
+    }
+    
+    // Add event listeners for closing the popup
+    if (closeSuccessBtn && successPopup) {
+        closeSuccessBtn.addEventListener('click', function() {
+            successPopup.style.display = 'none';
+        });
+        
+        // Close when clicking outside the popup content
+        successPopup.addEventListener('click', function(event) {
+            if (event.target === this) {
+                this.style.display = 'none';
+            }
+        });
+    }
 });

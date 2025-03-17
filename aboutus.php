@@ -10,7 +10,7 @@ $loggedIn = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="css/hello.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -120,11 +120,11 @@ $loggedIn = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
                 <h4>👩‍🍳 Emma Carter – Founder & Head Chef</h4>
                 <p> "Cooking is an art, and every dish tells a story."Emma is the creative mind behind FoodFusion, with 15+ years of experience in global cuisine. She specializes in blending traditional flavors with modern techniques.</p>
                 <h4>👨‍🍳 Alex Thompson – Culinary Director</h4>
-                <p>"The secret to great cooking? Passion and fresh ingredients!" Alex oversees recipe development, ensuring each dish is flavorful, authentic, and easy to follow for home cooks.</p>
+                <p>"The secret to great cooking? Passion and fresh ingredients!"Alex oversees recipe development, ensuring each dish is flavorful, authentic, and easy to follow for home cooks.</p>
                 <h4>📸 Sarah Lee – Food Photographer & Stylist</h4>
-                <p>"A great dish deserves to be captured beautifully." Sarah brings recipes to life with her stunning food photography and presentation skills.</p>
+                <p>"A great dish deserves to be captured beautifully."Sarah brings recipes to life with her stunning food photography and presentation skills.</p>
                 <h4>📝 David Wilson – Content & Community Manager </h4>
-                <p>"Food is best enjoyed when shared." David manages our blog, community cookbook, and social engagement, connecting food lovers worldwide.</p>
+                <p>"Food is best enjoyed when shared."David manages our blog, community cookbook, and social engagement, connecting food lovers worldwide.</p>
 
             </div>
             
