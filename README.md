@@ -32,17 +32,17 @@ http://localhost/hello/homepage.php
 ## 🖼️ Project Screenshots
 
 ### Login Popup
-![login](images/login.png)
+![login](/images/login.png)
 
 ### Register Popup
-![register](images/register.png)
+![register](/images/register.png)
 
 ### 1. Home Page
 **Window View**  
-![Home Page - Desktop](images/homepage.png)
+![Home Page - Desktop](/images/homepage.png)
 
 **Mobile View**  
-![Home Page - Mobile](images/homepage_m.png)
+![Home Page - Mobile](/images/homepage_m.png)
 
 ---
 
