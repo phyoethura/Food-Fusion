@@ -1,4 +1,4 @@
-# MMSP Project Setup Guide
+# 🍽️ MMSP Project Setup Guide
 
 ## 🛠️ 1. Install XAMPP
 - Download and install XAMPP from [https://www.apachefriends.org/](https://www.apachefriends.org/)
@@ -8,7 +8,7 @@
 ## 🗄️ 2. Import `mmsp.sql`
 - Open [phpMyAdmin](http://localhost/phpmyadmin)
 - Create a new database named `mmsp`
-- Go to the **Import** tab and upload `mmsp.sql` file
+- Go to the **Import** tab and upload the `mmsp.sql` file
 
 ## 🔄 3. Clone the Project
 Open your terminal and run the following inside the `xampp/htdocs` directory:
@@ -29,15 +29,24 @@ http://localhost/hello/homepage.php
 
 ---
 
+## 🎨 Design Prototype
+
+You can preview the UI/UX design via Figma:  
+🔗 [Figma Design – Hello Project](https://www.figma.com/design/hdgUbPNuO7ZVnScbe5rtcK/Hello-Project?node-id=0-1&t=FeOd4Zl5iX8Xf7Rk-1)
+
+---
+
 ## 🖼️ Project Screenshots
 
-### Login Popup
-![login](/images/login.png)
+### 🔐 Login Popup
+![Login](/images/login.png)
 
-### Register Popup
-![register](/images/register.png)
+### 📝 Register Popup
+![Register](/images/register.png)
 
-### 1. Home Page
+---
+
+### 1. 🏠 Home Page  
 **Window View**  
 ![Home Page - Desktop](/images/homepage.png)
 
@@ -46,61 +55,59 @@ http://localhost/hello/homepage.php
 
 ---
 
-### 2. About Us
+### 2. 👥 About Us  
 **Window View**  
-![About Us - Desktop](images/aboutus.png)
+![About Us - Desktop](/images/aboutus.png)
 
 **Mobile View**  
-![About Us - Mobile](images/aboutus_mmm.png)
+![About Us - Mobile](/images/aboutus_mmm.png)
 
 ---
 
-### 3. Recipe Collections
+### 3. 📚 Recipe Collections  
 **Window View**  
-![Recipe Collections - Desktop](images/recipe.png)
+![Recipe Collections - Desktop](/images/recipe.png)
 
 **Mobile View**  
-![Recipe Collections - Mobile](images/recipe_m.png)
+![Recipe Collections - Mobile](/images/recipe_m.png)
 
 ---
 
-### 4. Community Cookbook
+### 4. 📖 Community Cookbook  
 **Window View**  
-![Community Cookbook - Desktop](images/cookbook.png)
+![Community Cookbook - Desktop](/images/cookbook.png)
 
 **Mobile View**  
-![Community Cookbook - Mobile](images/cookbook_m.png)
+![Community Cookbook - Mobile](/images/cookbook_m.png)
 
 ---
 
-### 5. Contact Us
+### 5. 📩 Contact Us  
 **Window View**  
-![Contact Us - Desktop](images/contactus.png)
+![Contact Us - Desktop](/images/contactus.png)
 
 **Mobile View**  
-![Contact Us - Mobile](images/contactus_m.png)
+![Contact Us - Mobile](/images/contactus_m.png)
 
 ---
 
-### 6. Culinary Resources
+### 6. 🍳 Culinary Resources  
 **Window View**  
-![Culinary Resources - Desktop](images/culinary.png)
+![Culinary Resources - Desktop](/images/culinary.png)
 
 **Mobile View**  
-![Culinary Resources - Mobile](images/culinary_m.png)
+![Culinary Resources - Mobile](/images/culinary_m.png)
 
 ---
 
-### 7. Educational Resources
+### 7. 🎓 Educational Resources  
 **Window View**  
-![Educational Resources - Desktop](images/educational.png)
+![Educational Resources - Desktop](/images/educational.png)
 
 **Mobile View**  
-![Educational Resources - Mobile](images/educational_m.png)
+![Educational Resources - Mobile](/images/educational_m.png)
 
 ---
 
-### 8. Profile
-
-![Profile - Desktop](images/profile.png)
-
+### 8. 🙍‍♂️ Profile  
+![Profile - Desktop](/images/profile.png)
